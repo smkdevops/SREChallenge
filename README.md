@@ -15,6 +15,12 @@
 
 #Develop and apply automated tests to validate the correctness of the server configuration.
 
+Step1: 
+
+EC2 Instance provisioning: 
+
+
+
 Ansible for ec2 provisioning in AWS environment 
 
 CHEF to configure and deploy the web server with Hello world content display. 
