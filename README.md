@@ -15,6 +15,12 @@
 
 #Develop and apply automated tests to validate the correctness of the server configuration.
 
+Ansible for ec2 provisioning in AWS environment 
+
+CHEF to configure and deploy the web server with Hello world content display. 
+
+
+
 
 ChefSpec tests for the application cookbook 
 
