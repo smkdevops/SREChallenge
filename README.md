@@ -19,7 +19,7 @@ Ansible for ec2 provisioning in AWS environment
 
 CHEF to configure and deploy the web server with Hello world content display. 
 
-
+https://docs.aws.amazon.com/opsworks/latest/userguide/workinglayers-static.html
 
 
 ChefSpec tests for the application cookbook 
