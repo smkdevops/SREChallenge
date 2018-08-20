@@ -17,7 +17,9 @@
 
 Step1: 
 
-EC2 Instance provisioning: 
+EC2 Instance provisioning in us-west-2 region with Ansible as configuration Management tool. 
+
+
 
 
 
