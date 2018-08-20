@@ -19,6 +19,12 @@ Step1:
 
 EC2 Instance provisioning in us-west-2 region with Ansible as configuration Management tool. 
 
+Here the playbooks location https://github.com/smkdevops/SREChallenge/blob/master/ansible_aws_ec2_provisioning that provision the ec2 instances to configure and deploy our application
+
+
+Step2: 
+
+
 
 
 
