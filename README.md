@@ -26,10 +26,10 @@ Step2:
 
 
 
+We can use AWS OpsWorks Stacks to quickly create a sample Nginx application environment w
 
+Test Kitchen and Vagrant provide a simple and efficient way to implement cookbooks, but to verify that a cookbook's recipes will run correctly in production, you must run them on an AWS OpsWorks Stacks instance. This topic describes how to install a custom cookbook on an AWS OpsWorks Stacks Linux instance and run a simple recipe
 
-
-Ansible for ec2 provisioning in AWS environment 
 
 CHEF to configure and deploy the web server with Hello world content display. 
 
