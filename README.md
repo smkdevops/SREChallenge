@@ -16,6 +16,26 @@
 #Develop and apply automated tests to validate the correctness of the server configuration.
 
 
-ChefSpec tests for the cookbook
+ChefSpec tests for the application cookbook 
+
+
+-----------------------------Create Chef Code to Satisfy the Tests
+
+Create InSpec Integration Tests
+
+['net-tools', 'httpd'].each do |pkg|
+  describe package(pkg) do
+    it { should be_installed }
+  end
+end
+
+describe user('webadmin') do
+    it { should exist }
+    its('group') { should eq 'developers' }
+end 
+
+describe group('developers') do
+    it { should exist }
+end 
 
   
