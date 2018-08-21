@@ -29,6 +29,10 @@ Test Kitchen and Vagrant can be configured in our local CHEF workstation that we
 
 Here the CHEF recipes we can use to AWS OpsWorks Stacks to quickly configure a Apache application environment. https://github.com/smkdevops/SREChallenge/blob/master/Chef-Apache-Recipe.zip
 
+aws opsworks create-stack --name "CLI Stack" --stack-region "us-east-1" --service-role-arn arn:aws:iam::123456789012:role/aws-opsworks-service-role --default-instance-profile-arn arn:aws:iam::123456789012:instance-profile/aws-opsworks-ec2-role --region us-east-1
+
+aws opsworks --region ap-south-1 create-deployment --stack-id 935450cc-61e0-4b03-a3e0-160ac817d2bb --command "{\"Name\":\"execute_recipes\", \"Args\":{\"recipes\":[\"nginx::application\"]}}
+
 Step 3:
 
 ChefSpec -> A Unit Test framework that tests chef resources locally. 
