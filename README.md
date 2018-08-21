@@ -21,12 +21,13 @@ EC2 Instance provisioning in us-west-2 region with Ansible as configuration Mana
 
 Here the playbooks location https://github.com/smkdevops/SREChallenge/blob/master/ansible_aws_ec2_provisioning that provision the ec2 instances to configure and deploy our application
 
+Here i have added Ansible playbooks as well to configure the web server environment. 
 
 Step2: 
 
 Test Kitchen and Vagrant can be configured in our local CHEF workstation that we can use to test and implement chef recipes. But to verify that a cookbook's recipes will run correctly in production, we must run them on an AWS OpsWorks Stacks instance.
 
-Here the CHEF recipes we can use to AWS OpsWorks Stacks to quickly configure a Nginx application environment. https://github.com/smkdevops/SREChallenge/blob/master/Chef-Apache-Recipe.zip
+Here the CHEF recipes we can use to AWS OpsWorks Stacks to quickly configure a Apache application environment. https://github.com/smkdevops/SREChallenge/blob/master/Chef-Apache-Recipe.zip
 
 Step 3:
 
@@ -47,9 +48,6 @@ kitchen converge
 Kitchen verify 
 
 This will ensure your changes are converged on your test instance
-
-
-Step 5: 
 
 
 
