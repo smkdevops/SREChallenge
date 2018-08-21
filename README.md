@@ -30,7 +30,9 @@ Here the CHEF recipes we can use to AWS OpsWorks Stacks to quickly configure a N
 
 Step 3: 
 
-ChefSpec tests for the application cookbook 
+ChefSpec tests for the apache cookbook 
+
+chef exec rspec 
 
 
 
