@@ -28,39 +28,21 @@ Test Kitchen and Vagrant can be configured in our local CHEF workstation that we
 
 Here the CHEF recipes we can use to AWS OpsWorks Stacks to quickly configure a Nginx application environment. https://github.com/smkdevops/SREChallenge/blob/master/Chef-Apache-Recipe.zip
 
-Step 3: 
+Step 3:
+
+ChefSpec -> A Unit Test framework that tests chef resources locally. 
 
 ChefSpec tests for the apache cookbook 
 
 chef exec rspec 
 
+This will run based on [spec/unit/recipes/default_spec.rb] defined under 
 
-
-CHEF to configure and deploy the web server with Hello world content display. 
-
-https://docs.aws.amazon.com/opsworks/latest/userguide/workinglayers-static.html
+Step 4: 
 
 
 
 
 
------------------------------Create Chef Code to Satisfy the Tests
-
-Create InSpec Integration Tests
-
-['net-tools', 'httpd'].each do |pkg|
-  describe package(pkg) do
-    it { should be_installed }
-  end
-end
-
-describe user('webadmin') do
-    it { should exist }
-    its('group') { should eq 'developers' }
-end 
-
-describe group('developers') do
-    it { should exist }
-end 
-
+-
   
