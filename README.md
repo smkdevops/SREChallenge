@@ -49,6 +49,10 @@ Kitchen verify
 
 This will ensure your changes are converged on your test instance
 
+Step 5: Monitor the Environment: 
+
+
+
 
 
 
