@@ -1,6 +1,6 @@
 #!/bin/more
 ==================================
-SCRIPT NAME: aws_apachesrv_opt.yml  
+SCRIPT NAME: AWS_Ansible_Apache_Playbook.yml  
 ==================================
 --- # Ansible Playbook to Configure Static Web Server and Use it to Create a New Template
 - hosts: aws
