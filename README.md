@@ -26,7 +26,7 @@ Step2:
 
 Test Kitchen and Vagrant can be configured in our local CHEF workstation that we can use to test and implement chef recipes. But to verify that a cookbook's recipes will run correctly in production, we must run them on an AWS OpsWorks Stacks instance.
 
-Here the CHEF recipes we can use to AWS OpsWorks Stacks to quickly configure a Nginx application environment. https://github.com/smkdevops/SREChallenge/blob/master/SRE_Challenge_Cookbook_webserver.zip
+Here the CHEF recipes we can use to AWS OpsWorks Stacks to quickly configure a Nginx application environment. https://github.com/smkdevops/SREChallenge/blob/master/Chef-Apache-Recipe.zip
 
 Step 3: 
 
