@@ -40,6 +40,19 @@ This will run based on [spec/unit/recipes/default_spec.rb] defined under https:/
 
 Step 4: 
 
+InSpec - Integration testing framework for chef recipes. 
+
+kitchen converge
+
+Kitchen verify 
+
+This will ensure your changes are converged on your test instance
+
+
+Step 5: 
+
+
+
 
 
 
