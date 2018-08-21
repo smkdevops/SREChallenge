@@ -36,7 +36,7 @@ ChefSpec tests for the apache cookbook
 
 chef exec rspec 
 
-This will run based on [spec/unit/recipes/default_spec.rb] defined under 
+This will run based on [spec/unit/recipes/default_spec.rb] defined under https://github.com/smkdevops/SREChallenge/blob/master/Chef-Apache-Recipe.zip
 
 Step 4: 
 
