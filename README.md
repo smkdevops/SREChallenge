@@ -66,8 +66,5 @@ we can use Amazon CloudWatch Logs to monitor your stack's system & application.
 
 
 
-
-
-
 -
   
