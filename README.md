@@ -31,7 +31,7 @@ Here the CHEF recipes we can use to AWS OpsWorks Stacks to quickly configure a A
 
 aws opsworks create-stack --name "CLI Stack" --stack-region "us-west-2" --service-role-arn arn:aws:iam::123456789012:role/aws-opsworks-service-role --default-instance-profile-arn arn:aws:iam::123456789012:instance-profile/aws-opsworks-ec2-role --region us-west-2
 
-aws opsworks --region us-west-2 create-deployment --stack-id 935450cc-61e0-4b03-a3e0-160ac817d2bb --command "{\"Name\":\"execute_recipes\", \"Args\":{\"recipes\":[\"nginx::application\"]}}
+aws opsworks --region us-west-2 create-deployment --stack-id 935450cc-61e0-4b03-a3e0-160ac817d2bb --command "{\"Name\":\"execute_recipes\", \"Args\":{\"recipes\":[\"apache::recipe\"]}}
 
 Step 3:
 
