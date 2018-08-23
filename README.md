@@ -55,6 +55,12 @@ This will ensure your changes are converged on your test instance
 
 Step 5: Monitor the Environment: 
 
+Amazon cloutwatch uses to monitor AWS opsworks & detailed monitoring for each instance in the stack.
+
+We can integrate AWS cloudtrail to log every AWS OpsWorks Stacks API call and store the data in an Amazon S3 bucket. 
+
+we can use Amazon CloudWatch Logs to monitor your stack's system & application.
+
 
 
 
